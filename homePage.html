@@ -10,19 +10,40 @@
             margin: auto;
         }
         .page-header {
-           height: 56px; 
-           margin: auto;
-           width: 270px;
+           height: 62px; 
+           margin-left: 40%;
+           
+           width: 30%;
         } 
         .page-header > img {
             margin: auto;
-            width: 60%
+            width: 55%
+        }
+        .nav{
+            display: flex;
+            flex-direction: row;
+            margin-left: 22%;
+        }
+        .nav>p{
+            margin-right: 2%;
+            font-size:12px;
+            letter-spacing: 1px;
+            
+        }
+        .nav> button{
+            background-color:white;
+            border: none;
+        }
+        .nav>button>img{
+            margin-top: 6px;
+            width: 25px;
+            height: 13px;
         }
         #container{
             border: 1px solid red;
             width: 100%;
-            height: 450px;
-            margin-top: 50px;
+            height: 440px;
+            margin-top: 60px;
            
            background-image: url("https://m.media-amazon.com/images/G/01//Shopbop/media/desktop/homepages/2021/2021_12/sb_20211213_desktop_miniM1_nmd._CB1639155661_._FMwebp_UX1500_.jpg")
         }
@@ -64,17 +85,33 @@
 
     </style>
 </head>
-<body>
+<body >
+    
     <div class = "overview">
         
        <div class = "page-header">
             <img
                 src="https://m.media-amazon.com/images/G/01/Shopbop/p/pcs/shopbop/media/3/images/logos/Shopbop_HolidayLogo_2x_1-0.png">
        </div>
+       <div class = "nav">
+           <p>WHAT'S NEW</p>
+           <p>GIFTS</p>
+           <p>DESIGNERS</p>
+           <p>CLOTHING</p>
+           <p>ACTIVE</p>
+           <p>SHOES</p>
+           <p>BAGS</p>
+           <p>ACCESSORIES</p>
+           <p>MEN</p>
+           <p>SALE</p>
+           <button>
+               <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M1 6.5C1 3.467 3.467 1 6.5 1S12 3.467 12 6.5 9.533 12 6.5 12A5.506 5.506 0 011 6.5m13.932 8.102l-4.334-4.334a5.507 5.507 0 001.46-3.739C12.058 3.48 9.578 1 6.528 1A5.535 5.535 0 001 6.53c0 3.048 2.48 5.528 5.529 5.528 1.44 0 2.754-.554 3.739-1.46l4.334 4.334a.232.232 0 00.33 0 .233.233 0 000-.33' stroke='%23000' fill='none' fill-rule='evenodd'/%3E%3C/svg%3E">
+           </button>
+       </div>
         
     </div>
     <div>
-        <!-- <p class="para">SKIWEAR & WINTER CLOTHING 2022</p> -->
+        <p class="para">SKIWEAR & WINTER CLOTHING 2022</p>
     </div>
     <div id="container" >
         
