@@ -119,7 +119,7 @@
 
         }
         .slider-box div {
-            padding: 5px;
+            padding: 0.5px;
             margin: 5px;
         }
         .slider-box img {
@@ -138,17 +138,41 @@
         }
 
 
-.carousol {
-    display: flex;
-}
-.hide {
-    display: none;
-}
-.silder-btn {
-    height: 40px;
-    color: red;
-    background-color: yellowgreen;
-    margin-top: 16%;
-    border-radius: 50%;
-    cursor: pointer;
-}
+        .carousol {
+             display: flex;
+        }
+        .hide {
+             display: none;
+        }
+        .silder-btn {
+             height: 40px;
+             color: white;
+             background-color:rgb(255, 51, 0);
+             border: none;
+             margin-top: 15.5%;
+             width:40px;
+             border-radius: 50%;
+             cursor: pointer;
+             font-weight:1000;
+        }
+        .container-flex >p{
+            margin-top: 15%;
+            text-align:center;
+        }
+        .container-flex >h1{
+            font-family: sans-serif;
+            font-weight: bold;
+            text-align:center;
+        }
+        .inner-container{
+            display:flex;
+            width: 90%;
+            margin:  auto;
+        }
+        .inner-container > div{
+            margin-right: 5px;
+        }
+        .inner-container >div> img{
+            width:100%;
+        }
+        

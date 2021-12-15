@@ -22,5 +22,7 @@ function uiRender(param) {
         var first = document.querySelector('.first');
         first.style.display = 'none';
         second.style.display = 'flex';
+        
+
     }
 }
