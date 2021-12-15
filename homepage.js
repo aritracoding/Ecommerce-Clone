@@ -7,22 +7,25 @@ function carLeft() {
     uiRender(carValue);
 }
 function carRight() {
-    ++carValue;
+    ++carValue; 
     uiRender(carValue);
 }
 
 function uiRender(param) {
+    console.log('render',param);
     if (param == 1) {
-        var first = document.querySelector('.first');
-        var second = document.querySelector('.second');
-        second.style.display = 'none';
-        first.style.display = 'flex';
+        var first = document.querySelectorAll('.first');
+        var second = document.querySelectorAll('.second');
+        for (var i=0;i<first.length;i+=1){
+            first[i].style.display = 'flex';
+            second[i].style.display = 'none'
+        }
     } else if (param == 2) {
-        var second = document.querySelector('.second');
-        var first = document.querySelector('.first');
-        first.style.display = 'none';
-        second.style.display = 'flex';
-        
-
+        var second = document.querySelectorAll('.second');
+        var first = document.querySelectorAll('.first');
+        for (var i=0;i<first.length;i+=1){
+            first[i].style.display = 'none';
+            second[i].style.display = 'flex'
+        }
     }
 }
