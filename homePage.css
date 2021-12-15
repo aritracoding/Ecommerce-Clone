@@ -203,4 +203,14 @@
             margin-right: 4%;
            
         }
+        .section{
+            width: 100%;
+            margin: auto;
+        }
+        .section > img{
+            padding:5%;
+            margin: 4%;
+            width: 85%;
+            
+        }
         
