@@ -192,16 +192,56 @@
             overflow: hidden;
         }
         .two-column-container{
-            margin: 5% auto 15% 7%;
+            margin: auto;
             padding: 10px;
             display: flex;
-            width: 90%;
+            width: 100%;
+            height: 900px;
+            overflow: hidden;
         }
-        .two-column-container > div > img {
-            width: 90%;
-            margin-right: 4%;
-           
+        .two-column-inner-container1 {
+            width: 50%;
+            margin-left:5%;
+            background-image: url("https://m.media-amazon.com/images/G/01//Shopbop/media/desktop/homepages/2021/2021_12/sb_20211213_hp_card_2up_jewelry._QL90_UX800_.jpg");
+            height: 81%;
         }
+        .two-column-inner-container2 {
+            width: 50%;
+            margin-left:4%;
+            margin-right:5%;
+            background-image: url("https://m.media-amazon.com/images/G/01//Shopbop/media/desktop/homepages/2021/2021_12/sb_20211213_hp_card_2up_partydressing._QL90_UX800_.jpg");
+            height: 77%;
+        }
+        .box{
+            
+            background-color:white;
+            color:black;
+            width:75%;
+            margin-top: 670px;
+            margin-left: 17%;
+            height:200px;
+            padding: 30px;
+            
+            
+        }
+        .box:hover{
+            margin-top:650px;
+        }
+        .box > p{
+            font-size:14px;
+            font-family: sans-serif;
+            letter-spacing: 2px;
+            font-weight: 600;
+        }
+        .box > h2{
+            font-family: sans-serif;
+            
+        }
+        .box > div {
+            border-bottom: 3px solid red;
+            width: 12.5%;
+        }
+        
         .section{
             width: 100%;
             margin: auto;
