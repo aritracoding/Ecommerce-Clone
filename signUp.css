@@ -45,6 +45,7 @@
 }
 .p1-block{
     font-size:11px;
+    line-height:18px;
     font-family: sans-serif;
 
 }
@@ -73,4 +74,22 @@
 .p3 >span:hover{
     text-decoration:underline;
 }
+.hr{
+    margin-top: 40px;
+    background-color:rgba(0, 0, 0, 0.493)
+}
 
+#footer > p{
+
+    margin: 1% auto 1% auto;
+    text-align: center;
+    font-size: 12px;
+    font-family: sans-serif;
+    color: rgba(0, 0, 0, 0.774);
+}
+#footer > p > span{
+    color:orangered;
+}
+#footer > p > span:hover{
+   text-decoration:underline;
+}

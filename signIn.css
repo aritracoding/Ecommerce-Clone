@@ -64,4 +64,27 @@
 }
 .black {
     background-color: black;
+    width: 31.85%;
+    height:29px;
+    border:none;
+    color: white; 
+}
+.hr{
+    margin-top: 40px;
+    background-color:rgba(0, 0, 0, 0.493)
+}
+
+#footer > p{
+
+    margin: 1% auto auto auto;
+    text-align: center;
+    font-size: 12px;
+    font-family: sans-serif;
+    color: rgba(0, 0, 0, 0.774);
+}
+#footer > p > span{
+    color:orangered;
+}
+#footer > p > span:hover{
+   text-decoration:underline;
 }
