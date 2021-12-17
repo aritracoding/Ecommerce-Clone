@@ -1,0 +1,76 @@
+.overview {
+    background-color:wheat;
+    width: 40%;
+    margin: auto;
+    margin-top:10%;
+    height: 330px;
+    
+}
+.overview>button{
+    background-color:wheat;
+    width: 8%;
+    border: none;
+    margin-left: 92%;
+
+}
+.overview>button>img {
+    width: 100%;
+    height:30px;
+}
+.container{
+    margin: auto;
+   
+}
+.text{
+    text-align: center;
+}
+.text >p:nth-child(1){
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight:700;
+    margin-top:-2px;
+    margin-bottom: -5px;
+}
+.text >p:nth-child(2){
+    font-size: 12px;
+    font-family: sans-serif;
+}
+.container >p:nth-child(2){
+    font-size: 14px;
+    font-family: sans-serif;
+}
+.inner-container{
+    display:flex;
+    width:70%;
+    margin-left: 20%;
+    margin-top: 40px;
+}
+.inner-container> div:nth-child(2){
+    margin-left: 6%;
+}
+.box{
+    margin-top:-6px;
+}
+.box > p:nth-child(1){
+    font-size:12px;
+    font-family: sans-serif;
+    font-weight:600;
+    line-height:3px;
+}
+.box > p:nth-child(2),p:nth-child(3){
+    font-size:12px;
+    font-family: sans-serif;
+    line-height:3px
+}
+.box > button{
+    margin-top:67px;
+    background-color:orangered;
+    width:160%;
+    height:50px;
+    border: none;
+    font-size:14px;
+    font-family: sans-serif;
+    font-weight:600;
+    color: white;
+    letter-spacing:1px
+}
