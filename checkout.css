@@ -107,35 +107,85 @@
         }
 
         .flex-box{
+            display: flex;
             margin: auto;
             margin-top:20px;
-            border: 1px solid red;
             width: 70%;
             height: 400px;
         }
         .flex-box-header{
+            margin: auto;
             width: 60%;
+            height: 300px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            padding:20px;
+        }
+        .fl{
+            display: flex;
+            margin-bottom: 19px;
+
+        }
+        .img-contain{
+            width:10%
+        }
+        .im{
+            width: 71%;
+        }
+        .p-container > p:nth-child(1){
+            margin-top:8px;
+            font-size:18px;
+            font-family: sans-serif;
+            font-weight:600;
+            line-height:0px;
+        }
+        .p-container > p:nth-child(2){
+            margin-top:20px;
+            font-size:14px;
+            font-family: sans-serif;
+           
         }
         .inner-div{
             display:flex;
 
         }
-        .box{
+      
+        .box-1{
             margin-top:-6px;
             margin-left:1%
          }
-        .box > p:nth-child(1),p:nth-child(3),p:nth-child(4),p:nth-child(5),p:nth-child(6){
+        .box-1 > p:nth-child(1){
             font-size:12px;
             font-family: sans-serif;
             font-weight:600;
             
+            
         }
-        .box > p:nth-child(2) {
+        .box-1 > p:nth-child(3){
+            font-size:12px;
+            font-family: sans-serif;
+            font-weight:600;
+        }
+        .box-1 > p:nth-child(4){
+             font-size:12px;
+            font-family: sans-serif;
+            font-weight:600;
+        }
+        .box-1 > p:nth-child(5){
+             font-size:12px;
+            font-family: sans-serif;
+            font-weight:600;
+        }
+        .box-1 > p:nth-child(6){
+             font-size:12px;
+            font-family: sans-serif;
+            font-weight:600;
+        }
+        .box-1 > p:nth-child(2) {
             font-size:12px;
             font-family: sans-serif;
            
         }
-        .box > p:nth-child(4) > span{
+        .span{
             font-size:12px;
             font-family: sans-serif;
             color:black;
@@ -165,8 +215,55 @@
             font-family: sans-serif;
             font-weight:600;
         }
+        .another-div {
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            margin-left:3%;
+            width:35%;
+            padding: 2%;
 
-
+        }
+        .another-div > p:nth-child(1){
+             font-size:18px;
+            font-family: sans-serif;
+            font-weight:700;
+        }
+        .right-box {
+            display: flex;
+            justify-content: space-between;
+            font-size:12px;
+            font-family: sans-serif;
+            margin-bottom: -10px;
+        }
+        .right-box1{
+            margin-top:20px;
+            display: flex;
+            
+        }
+        .right-box1 > div:nth-child(2){
+            margin-left: 10px; 
+        }
+        .input{
+            width: 230px;
+            height: 40px;
+            border: none;
+            background-color: aliceblue;
+        }
+        .bt{
+            width:120px;
+            height:45px;
+        }
+        .bt1{
+            margin-top:17px;
+            background-color:orangered;
+            width: 365px;;
+            height:50px;
+            border: none;
+            font-size:14px;
+            font-family: sans-serif;
+            font-weight:600;
+            color: white;
+            letter-spacing:1px
+        }
 
 
 
