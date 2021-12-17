@@ -1,0 +1,166 @@
+#top-bar{
+    display:flex;
+    width:100%;
+}
+.top-bar-inner{
+    display:flex;
+    margin-left: 18%;
+}
+.top-bar-inner >img{
+    
+    width:80%;
+    height:18px;
+}
+.top-bar-inner > label{
+    margin-left:5px;
+}
+.top-bar-inner > select{
+    border: none;
+    margin-top:-13px;
+}
+.top-bar-middle{
+    margin-top:-13px;
+    margin-left: 9%;
+}
+.top-bar-middle > p{
+    font-size:14px;
+    margin-left: -2%;
+    font-family: normal;
+}
+.top-bar-right{
+    margin-left: 18%;
+    display:flex;
+}
+.top-bar-right-inner{
+    display:flex;
+    margin-top: -13px;
+}
+.top-bar-right-inner > button{
+    border: none;
+    background-color:white;
+}
+.top-bar-right > select{
+    border: none;
+    width:15px;
+    margin-top:-13px;
+}
+.top-right{
+    display:flex;
+    margin-top:2px;
+    margin-left:10px;
+}
+.left-img{
+    height:16px;
+}
+.right-image {
+    margin-top:-10px;
+    margin-left:5px;
+    width:50%;
+    height:35px;
+    border: none;
+    background-color:white;
+}
+.right-image >div > img {
+    margin-left:-3px;
+    width: 23px;
+    height: 20px;
+}
+
+
+
+
+.overview{
+    margin: auto;
+ }
+ .page-header {
+    height: 62px; 
+    margin-left: 40%;
+    
+    width: 30%;
+ } 
+ .page-header > img {
+     margin: auto;
+     width: 55%
+ }
+ .nav{
+     display: flex;
+     flex-direction: row;
+     margin-left: 22%;
+ }
+ .nav>p{
+     margin-right: 2%;
+     font-size:12px;
+     letter-spacing: 1px;
+     
+ }
+ .nav>p:hover{
+     font-weight: bold;
+     
+ }
+ .nav> button{
+     background-color:white;
+     border: none;
+ }
+
+ .nav>button>img{
+     margin-top: 6px;
+     width: 25px;
+     height: 13px;
+ }
+
+
+
+ .inner-container-text {
+     width: 800px;
+     margin: 5% auto;
+     font-size: 28px !important;
+     color: blueviolet;
+ }
+ .inner-container-text > h4 {
+     color: rgb(48, 20, 20);
+     text-align: center;
+ }
+ .inner-container-text > img {
+     margin-left: 30%;
+ }
+ .inner-container-text > img:hover {
+     transform: scale(1.2);
+ }
+
+
+
+ .footer{
+    display: flex;
+    margin: 0 auto auto auto;
+    width: 80%;
+}
+.footer-div{
+    margin: 2% -1px auto auto;
+}
+.footer-div > h4{
+    font-size: 11px;
+    font-family: sans-serif;
+    font-weight: 900;
+    letter-spacing: .5px;
+}
+.footer-div > p{
+    font-size:14px;
+    letter-spacing: .5px;
+}
+.footer-div > p:hover{
+    font-weight: bold;
+}
+.footer-end{
+    margin: 10% auto auto auto;
+    text-align: center;
+}
+.footer-end > h5{
+    font-family: sans-serif;
+}
+.footer-end > h5 >span{
+    text-decoration: underline;
+}
+.footer-end > p{
+    font-size: 12px;
+    margin-top: -12px;
+}
