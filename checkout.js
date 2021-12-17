@@ -1,3 +1,3 @@
 function buyNow(){
-    window.location.href = '/orderSuccess.html';
+    window.location.href = '/addedToBag.html';
 }
