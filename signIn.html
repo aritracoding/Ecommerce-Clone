@@ -15,14 +15,14 @@
 
     <div class="form-group">
 
-        <form>
+        <div>
             <p class="create"> Sign In</p>
             
             <label >Email</label><br>
-            <input type="text"><br><br>
+            <input id="login-email" type="text"><br><br>
             <label >Password</label><br>
-            <input type="text"><br><br>
-            <button class="orange">Sign In</button><br>
+            <input id="login-pass" type="password"><br><br>
+            <button onclick="login()" class="orange">Sign In</button><br>
             <p class="p3">Keep me logged in. <span>Details</span></p>
             <br>
             <p class="p2">More sign in options</p>
@@ -33,7 +33,7 @@
            
             <button class="black">Create your Shopbop account</button><br>
             
-        </form>
+        </div>
         
 
     </div>
@@ -43,4 +43,5 @@
         <p>© 1999-2020 BOP LLC. All Rights Reserved.<span> Privacy Notice Conditions of Use</span></p>
     </div>
 </body>
+<script src="/signIn.js"></script>
 </html>

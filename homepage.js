@@ -29,3 +29,11 @@ function uiRender(param) {
         }
     }
 }
+
+
+function register(){
+    window.location.href = './signUp.html';
+}
+function login(){
+    window.location.href = './signIn.html';
+}
